@@ -14,7 +14,7 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="1785">
               <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -78,8 +78,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="DrinkModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DrinkModel" type="462c0819:PsiDirectoryNode" />
+              <item name="DrinksModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrinksModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,7 +140,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
@@ -272,7 +272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="1785">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
