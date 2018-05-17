@@ -102,6 +102,6 @@ def predict():
     resultPredict = clf[0].predict(X_New)
 
     return jsonify({'message' : str(resultPredict)})
-app.run(debug=True)
+# app.run(debug=True)
     # return jsonify({'message' : format(clf[1].target_names[resultPredict])})
 
