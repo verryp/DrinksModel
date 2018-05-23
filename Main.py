@@ -42,9 +42,13 @@ def predict():
 
             - Calories
 
-            - Fat
+            - Cholesterol
 
             - Carbohydrates
+
+            - Sugars
+
+            - Protein
 
             - Caffeine
 
@@ -58,11 +62,11 @@ def predict():
 
               default: 0
 
-            Fat:
+            Cholesterol:
 
               type: int
 
-              description: Please input with valid Fat.
+              description: Please input with valid Cholesterol.
 
               default: 0
 
@@ -71,6 +75,22 @@ def predict():
               type: int
 
               description: Please input with valid Carbohydrates.
+
+              default: 0
+
+            Sugars:
+
+              type: int
+
+              description: Please input with valid Sugars.
+
+              default: 0
+
+            Protein:
+
+              type: int
+
+              description: Please input with valid Protein.
 
               default: 0
 
@@ -92,10 +112,12 @@ def predict():
     new_task = request.get_json()
 
     calories = new_task['Calories']
-    fat = new_task['Fat']
+    cholesterol = new_task['Cholesterol']
     carbohydrates = new_task['Carbohydrates']
+    sugars = new_task['Sugars']
+    protein = new_task['Protein']
     caffeine = new_task['Caffeine']
-    X_New = np.array([[calories,fat,carbohydrates,caffeine]])
+    X_New = np.array([[calories,cholesterol,carbohydrates,sugars,protein,caffeine]])
 
     clf = joblib.load('drinks_pycham.pkl')
 
